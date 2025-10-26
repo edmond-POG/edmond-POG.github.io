@@ -1,26 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Rane Edmond Thiaw">
-    <title>My Dream Vacation</title>
-    <style>
-        img {
-            border: 3px solid black;
-            border-radius: 15px;
-            margin-bottom: 20px;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="author" content="Rane Edmond Thiaw">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Dream Vacation — Monaco</title>
+  <link rel="stylesheet" href="my_style.css?v=lab6-1">
+  <script src="nav.js?v=lab6-1"></script>
 </head>
 <body>
-    <h1>My Dream Vacation</h1>
+  <div class="body_wrapper">
+    <header>
+      <nav id="main-nav" class="main_nav"></nav>
+      <script>setNav(location.pathname)</script>
+    </header>
 
-    <p>If I could choose any place for a vacation, I would go to <strong>Monaco</strong>. 
-    The country is known for its <em>luxury lifestyle</em>, <strong>Formula 1 Grand Prix</strong>, and of course, its amazing <em>cars</em>. 
-    As a car enthusiast and former pro karting driver, visiting Monaco would be a dream come true!</p>
+    <main>
+      <h1>My Dream Vacation</h1>
+      <p>If I could go anywhere in the world, I would choose <strong>Monaco</strong>. It’s known for its luxury lifestyle, breathtaking views, and the <em>Formula 1 Grand Prix</em>.</p>
 
-    <img src="images/monaco.webp" alt="Monaco luxury view" width="400">
+      <h2>Why Monaco?</h2>
+      <ul>
+        <li>Luxury lifestyle and amazing food</li>
+        <li>Legendary Formula 1 Grand Prix on city streets</li>
+        <li>Beautiful Mediterranean coastline and sunny weather</li>
+      </ul>
 
-    <p><a href="index.html">Back to Home</a></p>
+      <h2>Explore More</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="my_artistic_self.html">My Artistic Self</a></li>
+        <li><a href="my_form.html">Student Type Quiz</a></li>
+      </ul>
+    </main>
+  </div>
+
+  <footer>
+    <p>CS203 Labs — GitHub Pages</p>
+  </footer>
 </body>
 </html>

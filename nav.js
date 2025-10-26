@@ -21,6 +21,7 @@ function setNav(current_path){
       }
     })
     .catch(err => {
-      console.warn("Nav fetch failed. Deploy to GitHub Pages to test.", err)
+      console.warn("Nav fetch failed. Use the GitHub Pages URL to test.", err)
     })
 }
+
