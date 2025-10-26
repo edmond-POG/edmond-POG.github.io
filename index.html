@@ -1,117 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Rane Edmond Thiaw">
-    <title>Rane Edmond Thiaw - Personal Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: center;
-        }
-
-        th {
-            background-color: lightblue;
-        }
-
-        td {
-            background-color: #f0f0f0;
-        }
-
-        a {
-            display: inline-block;
-            margin-top: 10px;
-            text-decoration: none;
-            color: blue;
-            font-weight: bold;
-        }
-
-        h1, h2 {
-            text-align: center;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="author" content="Rane Edmond Thiaw">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rane Edmond Thiaw - Personal Page</title>
+  <link rel="stylesheet" href="my_style.css">
 </head>
 <body>
-    <h1>Welcome to My Website!</h1>
-    <p>Hello! My name is <strong>Rane Edmond Thiaw</strong>. I am currently studying <em>Computer Science</em> at Bishop’s University. I enjoy many things in life, especially sports, video games, and cars.</p>
+  <div class="body_wrapper">
+    <header>
+      <nav class="main_nav">
+        <a href="index.html" class="nav_link current">Home</a>
+        <a href="about.html" class="nav_link">About</a>
+        <a href="my_artistic_self.html" class="nav_link">Artistic Self</a>
+      </nav>
+    </header>
 
-    <hr>
+    <main>
+      <h1>Welcome to My Website!</h1>
+      <p>Hello! My name is <strong>Rane Edmond Thiaw</strong>. I am currently studying <em>Computer Science</em> at Bishop’s University. I enjoy many things in life, especially sports, video games, and cars.</p>
 
-    <h2>Fun Facts About Me</h2>
-    <ul>
+      <hr>
+
+      <h2>Fun Facts About Me</h2>
+      <ul>
         <li>I absolutely love <strong>sports</strong>.</li>
         <li>I spend a lot of time playing <em>video games</em>.</li>
         <li>I am a <strong>really good driver</strong> and even went pro in <em>karting</em> back in Senegal!</li>
-    </ul>
+      </ul>
 
-    <hr>
+      <hr>
 
-    <h2>My Education Timeline</h2>
-    <table>
+      <h2>My Education Timeline</h2>
+      <table>
         <tr>
-            <th>Years</th>
-            <th>School</th>
-            <th>Program</th>
+          <th>Years</th>
+          <th>School</th>
+          <th>Program</th>
         </tr>
         <tr>
-            <td>2023 - Present</td>
-            <td>Bishop’s University</td>
-            <td>Computer Science</td>
+          <td>2023 - Present</td>
+          <td>Bishop’s University</td>
+          <td>Computer Science</td>
         </tr>
         <tr>
-            <td>2020 - 2023</td>
-            <td>WACA (Senegal)</td>
-            <td>International Baccalaureate</td>
+          <td>2020 - 2023</td>
+          <td>WACA (Senegal)</td>
+          <td>International Baccalaureate</td>
         </tr>
         <tr>
-            <td>2017 - 2020</td>
-            <td>WACA (Senegal)</td>
-            <td>Middle School</td>
+          <td>2017 - 2020</td>
+          <td>WACA (Senegal)</td>
+          <td>Middle School</td>
         </tr>
-    </table>
+      </table>
 
-    <h2>My Favorite Things</h2>
-    <table>
+      <h2>My Favorite Things</h2>
+      <table>
         <tr>
-            <th>Category</th>
-            <th>Item</th>
-            <th>Reason</th>
+          <th>Category</th>
+          <th>Item</th>
+          <th>Reason</th>
         </tr>
         <tr>
-            <td>Vacation</td>
-            <td>Monaco</td>
-            <td>Luxury lifestyle and Formula 1 Grand Prix</td>
+          <td>Vacation</td>
+          <td>Monaco</td>
+          <td>Luxury lifestyle and Formula 1 Grand Prix</td>
         </tr>
         <tr>
-            <td>Sport</td>
-            <td>Basketball</td>
-            <td>Improves fitness and teamwork</td>
+          <td>Sport</td>
+          <td>Basketball</td>
+          <td>Improves fitness and teamwork</td>
         </tr>
         <tr>
-            <td>Hobby</td>
-            <td>Gaming</td>
-            <td>Fun and strategy development</td>
+          <td>Hobby</td>
+          <td>Gaming</td>
+          <td>Fun and strategy development</td>
         </tr>
-    </table>
+      </table>
 
-    <h2>My Dream Vacation</h2>
-    <p>Check out my dream vacation page:</p>
-    <a href="my_vacation.html">Go to Vacation Page</a>
+      <h2>My Dream Vacation</h2>
+      <p>Check out my dream vacation page:</p>
+      <a href="my_vacation.html">Go to Vacation Page</a>
 
-    <h2>My Artistic Self</h2>
-    <p>Check out my artistic self page:</p>
-    <a href="my_artistic_self.html">Go to Artistic Self Page</a>
+      <h2>My Artistic Self</h2>
+      <p>Check out my artistic self page:</p>
+      <a href="my_artistic_self.html">Go to Artistic Self Page</a>
+    </main>
+  </div>
+
+  <footer>
+    <p>This website is made for CS203 labs!</p>
+  </footer>
 </body>
 </html>
