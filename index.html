@@ -4,44 +4,46 @@
   <meta charset="utf-8">
   <meta name="author" content="Rane Edmond Thiaw">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home — Rane Edmond Thiaw</title>
-  <link rel="stylesheet" href="my_style.css?v=lab6-1">
-  <script src="nav.js?v=lab6-1"></script>
+  <title>Home — Lab 7</title>
+  <link rel="stylesheet" href="my_style.css">
 </head>
 <body>
   <div class="body_wrapper">
     <header>
-      <nav id="main-nav" class="main_nav"></nav>
-      <script>setNav(location.pathname)</script>
+      <nav class="main_nav">
+        <a href="index.php" class="nav_link current">Home</a>
+        <a href="about.html" class="nav_link">About</a>
+        <a href="my_artistic_self.html" class="nav_link">Artistic Self</a>
+        <a href="my_vacation.html" class="nav_link">Vacation</a>
+        <a href="to-do.html" class="nav_link">To-Do</a>
+      </nav>
     </header>
 
     <main>
-      <h1>Welcome to My Website!</h1>
-      <p>Hello! My name is <strong>Rane Edmond Thiaw</strong>. I am currently studying <em>Computer Science</em> at Bishop’s University. I enjoy sports, video games, and cars.</p>
+      <h1>Welcome</h1>
+      <p>This is my Lab 7 homepage with a simple JavaScript image carousel.</p>
 
-      <hr>
+      <div class="slideshow" id="slideshow">
+        <div class="slideshow_img">
+          <img src="images/slide1.jpg" alt="Slide 1">
+        </div>
+        <div class="slideshow_img">
+          <img src="images/slide2.jpg" alt="Slide 2">
+        </div>
+        <div class="slideshow_img">
+          <img src="images/slide3.jpg" alt="Slide 3">
+        </div>
 
-      <h2>Quick Links</h2>
-      <ul>
-        <li><a href="my_vacation.html">My Dream Vacation</a></li>
-        <li><a href="my_artistic_self.html">My Artistic Self</a></li>
-        <li><a href="my_form.html">Student Type Quiz</a></li>
-        <li><a href="about.html">About This Site</a></li>
-      </ul>
-
-      <h2>My Education Timeline</h2>
-      <table>
-        <tr><th>Years</th><th>School</th><th>Program</th></tr>
-        <tr><td>2023 - Present</td><td>Bishop’s University</td><td>Computer Science</td></tr>
-        <tr><td>2020 - 2023</td><td>WACA (Senegal)</td><td>International Baccalaureate</td></tr>
-        <tr><td>2017 - 2020</td><td>WACA (Senegal)</td><td>Middle School</td></tr>
-      </table>
+        <a id="prev_btn" class="slide_btn" href="javascript:void(0)" onclick="previous()">&#10094; Prev</a>
+        <a id="next_btn" class="slide_btn" href="javascript:void(0)" onclick="next()">Next &#10095;</a>
+      </div>
     </main>
   </div>
 
-  <footer>
-    <p>CS203 Labs — GitHub Pages</p>
-  </footer>
+  <script src="script.js"></script>
+  <script>
+    // Initialize slideshow on home only
+    initSlideshow();
+  </script>
 </body>
 </html>
-
