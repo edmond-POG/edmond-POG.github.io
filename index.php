@@ -25,13 +25,13 @@
 
       <div class="slideshow" id="slideshow">
         <div class="slideshow_img">
-          <img src="images/slide1.jpg" alt="Slide 1">
+          <img src="images/slide1.jpeg" alt="Slide 1">
         </div>
         <div class="slideshow_img">
-          <img src="images/slide2.jpg" alt="Slide 2">
+          <img src="images/slide2.jpeg" alt="Slide 2">
         </div>
         <div class="slideshow_img">
-          <img src="images/slide3.jpg" alt="Slide 3">
+          <img src="images/slide3.jpeg" alt="Slide 3">
         </div>
 
         <a id="prev_btn" class="slide_btn" href="javascript:void(0)" onclick="previous()">&#10094; Prev</a>
