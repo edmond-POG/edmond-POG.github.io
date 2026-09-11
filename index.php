@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Rane Edmond Thiaw">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home — Lab 7</title>
+  <link rel="stylesheet" href="my_style.css">
+</head>
+<body>
+  <div class="body_wrapper">
+    <header>
+      <nav class="main_nav">
+        <a href="index.php" class="nav_link current">Home</a>
+        <a href="about.html" class="nav_link">About</a>
+        <a href="my_artistic_self.html" class="nav_link">Artistic Self</a>
+        <a href="my_vacation.html" class="nav_link">Vacation</a>
+        <a href="to-do.html" class="nav_link">To-Do</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Welcome</h1>
+      <p>This is my Lab 7 homepage with a simple JavaScript image carousel.</p>
+
+      <div class="slideshow" id="slideshow">
+        <div class="slideshow_img">
+          <img src="images/slide1.jpeg" alt="Slide 1">
+        </div>
+        <div class="slideshow_img">
+          <img src="images/slide2.jpeg" alt="Slide 2">
+        </div>
+        <div class="slideshow_img">
+          <img src="images/slide3.jpeg" alt="Slide 3">
+        </div>
+
+        <a id="prev_btn" class="slide_btn" href="javascript:void(0)" onclick="previous()">&#10094; Prev</a>
+        <a id="next_btn" class="slide_btn" href="javascript:void(0)" onclick="next()">Next &#10095;</a>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // Initialize slideshow on home only
+    initSlideshow();
+  </script>
+
+</body>
+</html>
