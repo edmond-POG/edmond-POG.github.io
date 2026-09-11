@@ -6,7 +6,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Artistic Self</title>
   <link rel="stylesheet" href="my_style.css">
-  <link rel="stylesheet" href="visual.css">
+  <style>
+    body.artistic_body {
+      background-image: url('images/myart.webp');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+    
+    main.overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 40px 20px;
+      min-height: calc(100vh - 100px);
+    }
+    
+    .keyword {
+      font-family: 'Courier New', monospace;
+      margin: 15px 0;
+      text-align: center;
+    }
+    
+    #keyword1 { font-size: 24px; color: yellow; }
+    #keyword2 { font-size: 28px; color: cyan; }
+    #keyword3 { font-size: 32px; color: magenta; }
+    #keyword4 { font-size: 26px; color: orange; }
+    #keyword5 { font-size: 30px; color: lime; }
+    
+    #description {
+      margin-top: 40px;
+      font-size: 18px;
+      line-height: 1.6;
+      text-align: center;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      color: white;
+    }
+  </style>
 </head>
 <body class="artistic_body">
   <div class="body_wrapper">
